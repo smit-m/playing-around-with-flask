@@ -7,7 +7,7 @@ def hello():
 
 @app.route("/me")
 def hello_me():
-    return("Hello Smit!")
+    return render_template("about.html")
     
 
 if __name__ == "__main__":
