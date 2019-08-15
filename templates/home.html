@@ -5,7 +5,12 @@
     <title>Simple Flask App</title>
   </head>
   <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
     <h1> My First Attempt Using Flask </h1>
     <p> This is fun! </p>
+    
+    {% endblock %}
   </body>
 </html>
