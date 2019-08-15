@@ -6,7 +6,7 @@ def hello():
     return("Hello World!")
 
 @app.route("/me")
-def hello():
+def hello_me():
     return("Hello Smit!")
     
 
